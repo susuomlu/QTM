@@ -1,5 +1,7 @@
 # Azure web hosting
-Websites link:
+AzureVM IP Address: 23.98.66.98
+
+Websites:
 
 http://www.eeeeez.ml
 
@@ -9,4 +11,6 @@ http://www.zeeeee.ml
 
 http://www.zeeeee.ml
 
-AzureVM IP Address: 23.98.66.98
+Slide: 
+
+https://docs.google.com/presentation/d/1DXOsGw99phwdSm3ZjVnZtbOo1_peMvDOUbAL4EH2NOw/edit?usp=sharing
