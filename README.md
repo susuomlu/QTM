@@ -9,4 +9,4 @@ http://www.zeeeee.ml
 
 http://www.zeeeee.ml
 
-Azure VM Ip: 23.98.66.98
+AzureVM IP Address: 23.98.66.98
