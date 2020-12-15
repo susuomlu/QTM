@@ -1,4 +1,4 @@
-# QTM
+# Azure web hosting
 Websites link:
 
 http://www.eeeeez.ml
