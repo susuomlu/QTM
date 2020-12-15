@@ -1,0 +1,46 @@
+
+<VirtualHost *:80>
+  ServerAlias www.eeeeez.ml
+  DocumentRoot "/opt/bitnami/apache/htdocs/web1"
+  <Directory "/opt/bitnami/apache/htdocs">
+    Options -Indexes +FollowSymLinks -MultiViews
+    AllowOverride All
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerAlias www.zeeeee.ml
+  DocumentRoot "/opt/bitnami/apache/htdocs/web2"
+  <Directory "/opt/bitnami/apache/htdocs">
+    Options -Indexes +FollowSymLinks -MultiViews
+    AllowOverride All
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:443>
+  ServerAlias www.eeeeez.ml
+  DocumentRoot "/opt/bitnami/apache/htdocs/web1"
+  SSLEngine on
+  SSLCertificateFile "/opt/bitnami/apache2/conf/bitnami/certs/server.crt"
+  SSLCertificateKeyFile "/opt/bitnami/apache2/conf/bitnami/certs/server.key"
+  <Directory "/opt/bitnami/apache/htdocs">
+    Options -Indexes +FollowSymLinks -MultiViews
+    AllowOverride All
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:443>
+  ServerAlias www.zeeeee.ml
+  DocumentRoot "/opt/bitnami/apache/htdocs/web2"
+  SSLEngine on
+  SSLCertificateFile "/opt/bitnami/apache2/conf/bitnami/certs/server.crt"
+  SSLCertificateKeyFile "/opt/bitnami/apache2/conf/bitnami/certs/server.key"
+  <Directory "/opt/bitnami/apache/htdocs">
+    Options -Indexes +FollowSymLinks -MultiViews
+    AllowOverride All
+    Require all granted
+  </Directory>
+</VirtualHost>
